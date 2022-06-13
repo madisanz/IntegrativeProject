@@ -31,3 +31,5 @@ for x in range(5):
 
 #Imprimimos la lista
 print(lista)
+
+#Definimos Función suma 
