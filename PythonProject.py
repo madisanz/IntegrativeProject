@@ -12,7 +12,7 @@ Grupo:
    -> Margarita Sánchez     E-mail: madisanz1@gmail.com
    -> Carla Argentina Wayar E-mail: carlaargentinawayar@gmail.com
    -> Vanesa Paola Soria    E-mail: vanesa.soria.p@gmail.com
-   ->
+   -> Lucia Anahi Roldan    E-mail: luciardna@gmail.com
    ->
    
 '''
