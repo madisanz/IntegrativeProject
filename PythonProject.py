@@ -14,7 +14,6 @@ Grupo:
    -> Vanesa Paola Soria    E-mail: vanesa.soria.p@gmail.com
    -> Lucia Anahi Roldan    E-mail: luciardna@gmail.com
    -> Jorge Daniel Rojas    E-mail: jorgedanielrojas20@gmail.com
-   -> Pablo Duarte          E-mail: pablo37942@gmail.com
    -> Ignacio Jose Rocha    E-mail: ignac1997nacho@gmail.com
    -> Antonella Roggio      E-mail: antonella.roggio5@gmail.com
    
