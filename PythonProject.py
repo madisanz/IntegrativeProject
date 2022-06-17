@@ -44,5 +44,5 @@ def suma(lista):
 	return total_suma
 
 #llamo a la Función suma propia
-Suma_lista=suma(lista)
-print(" El resultado de la Suma es:  ",Suma_lista)
+Suma_total=suma(lista)
+print(" El resultado de la Suma es:  ",Suma_total)
