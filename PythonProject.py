@@ -20,15 +20,29 @@ Grupo:
 '''
 
 
-#Definimos una lista vacia
+#Definimos una lista vacia 
 lista=[]
 
 #El usuario ingresa los 5 numeros enteros
 for x in range(5):
-    valor=int(input("Ingrese un valor entero:"))
+    valor=int(input("Ingrese un valor entero: "))
     lista.append(valor)
 
 #Imprimimos la lista
-print(lista)
+print("Los numeros ingresados son: ",lista)
 
-#Definimos Función suma 
+
+#Uso sum que tiene python para hacer la suma de los numeros de la lista
+Suma_lista=sum(lista)
+print(" El resultado de la Suma es:  ",Suma_lista)
+
+#Definimos Función suma propia 
+def suma(lista):
+	total_suma=0
+	for numero in lista:
+		total_suma = total_suma + numero
+	return total_suma
+
+#llamo a la Función suma propia
+Suma_lista=suma(lista)
+print(" El resultado de la Suma es:  ",Suma_lista)
