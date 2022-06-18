@@ -59,6 +59,6 @@ def promedio(lista):
 
 
 a=promedio(lista)
-print("el promedio es: ",a)
+imprimir ( "el promedio es: " , a )
 
 	
