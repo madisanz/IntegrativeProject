@@ -46,3 +46,19 @@ def suma(lista):
 #llamo a la Función suma propia
 Suma_total=suma(lista)
 print(" El resultado de la Suma es:  ",Suma_total)
+
+
+#funcion promedio
+def promedio(lista):
+    promedio=0
+    contador=0
+    for i in range(len(lista)):
+        promedio=promedio+lista[i]
+        contador=promedio/len(lista)
+    return contador
+
+
+a=promedio(lista)
+print("el promedio es: ",a)
+
+	
