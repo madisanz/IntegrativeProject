@@ -11,7 +11,6 @@ lista
 Grupo: 
    -> Margarita Sánchez     E-mail: madisanz1@gmail.com
    -> Carla Argentina Wayar E-mail: carlaargentinawayar@gmail.com
-   -> Vanesa Paola Soria    E-mail: vanesa.soria.p@gmail.com
    -> Lucia Anahi Roldan    E-mail: luciardna@gmail.com
    -> Jorge Daniel Rojas    E-mail: jorgedanielrojas20@gmail.com
    -> Ignacio Jose Rocha    E-mail: ignac1997nacho@gmail.com
@@ -43,12 +42,12 @@ def suma(lista):
 		total_suma = total_suma + numero
 	return total_suma
 
-#llamo a la Función suma propia
+#Llamo a la Función suma propia
 Suma_total=suma(lista)
 print(" El resultado de la Suma es:  ",Suma_total)
 
 
-#funcion promedio
+#Función promedio
 def promedio(lista):
     promedio=0
     contador=0
@@ -61,9 +60,12 @@ def promedio(lista):
 a=promedio(lista)
 print ( "el promedio es: " , a )
 
-#funcion maximo
+#Función Máximo
 valorMaximo = max(lista)
 
 #imprimo el valor maximo
 print ("El valor maximo ingresado es: ", valorMaximo)
+
+
+#Función Míximo
 	
