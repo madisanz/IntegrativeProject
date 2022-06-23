@@ -63,9 +63,10 @@ print ( "el promedio es: " , a )
 #Función Máximo
 valorMaximo = max(lista)
 
-#imprimo el valor maximo
+#Imprimo el valor máximo
 print ("El valor maximo ingresado es: ", valorMaximo)
 
 
 #Función Míximo
+
 	
