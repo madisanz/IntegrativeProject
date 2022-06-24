@@ -1,13 +1,11 @@
 '''pythonproject.py
 Codificar en Python un programa que contenga las siguientes condiciones:
-
    -> El usuario debe ingresar 5 números enteros, los cuales serán almacenados en una
 lista
    -> Función Suma
    -> Función Promedio
    -> Función Máximo
    -> Función Mínimo
-
 Grupo: 
    -> Margarita Sánchez     E-mail: madisanz1@gmail.com
    -> Carla Argentina Wayar E-mail: carlaargentinawayar@gmail.com
@@ -25,16 +23,16 @@ lista=[]
 
 #El usuario ingresa los 5 numeros enteros
 for x in range(5):
-    valor=int(input("Ingrese un valor entero: "))
+    valor=int(input("Ingrese un valor entero:  "))
     lista.append(valor)
 
 #Imprimimos la lista
-print("Los numeros ingresados son: ",lista)
+print("Los numeros ingresados son: \n ",lista)
 
 
 #Uso sum que tiene python para hacer la suma de los numeros de la lista
 Suma_lista=sum(lista)
-print(" El resultado de la Suma es:  ",Suma_lista)
+print(" El resultado de la Suma es:  ",Suma_lista, "\n")
 
 #Definimos Función suma propia 
 def suma(lista):
@@ -45,7 +43,7 @@ def suma(lista):
 
 #Llamo a la Función suma propia
 Suma_total=suma(lista)
-print(" El resultado de la Suma es:  ",Suma_total)
+print(" El resultado de la Suma es:  ",Suma_total, "\n")
 
 
 #Función promedio
@@ -59,21 +57,14 @@ def promedio(lista):
 
 
 a=promedio(lista)
-print ( "el promedio es: " , a )
+print ( "El promedio de la lista es: " , a , "\n")
 
 #Función Máximo
 valorMaximo = max(lista)
-
 #Imprimo el valor máximo
-print ("El valor maximo ingresado es: ", valorMaximo)
-
+print ("El valor MÁXIMO ingresado es: ", valorMaximo, "\n")
 
 #Función Mínimo
 valorMinimo = min(lista)
-
 #Imprimo el valor mínimo
-print ("El valor mínimo ingresado es: ", valorMínimo)
-
-
-
-	
+print ("El valor MÍNIMO ingresado es: ", valorMinimo, "\n")
