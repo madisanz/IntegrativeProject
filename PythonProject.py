@@ -59,10 +59,14 @@ def promedio(lista):
 a=promedio(lista)
 print ( "El promedio de la lista es: " , a , "\n")
 
-#Función Máximo
-valorMaximo = max(lista)
-#Imprimo el valor máximo
-print ("El valor MÁXIMO ingresado es: ", valorMaximo, "\n")
+#Funcion Maximo
+def maximo(lista):
+	grande=0
+	for numero in lista:
+		if numero>grande:
+			grande=numero
+	return grande
+print ("El valor MÁXIMO ingresado es: ", maximo(lista), "\n")
 
 #Función Mínimo
 valorMinimo = min(lista)
