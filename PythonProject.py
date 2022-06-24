@@ -15,6 +15,7 @@ Grupo:
    -> Jorge Daniel Rojas    E-mail: jorgedanielrojas20@gmail.com
    -> Ignacio Jose Rocha    E-mail: ignac1997nacho@gmail.com
    -> Antonella Roggio      E-mail: antonella.roggio5@gmail.com
+   -> Emma Gutiérrez        E-mail: emygut@gmail.com
    
 '''
 
@@ -67,6 +68,12 @@ valorMaximo = max(lista)
 print ("El valor maximo ingresado es: ", valorMaximo)
 
 
-#Función Míximo
+#Función Mínimo
+valorMinimo = min(lista)
+
+#Imprimo el valor mínimo
+print ("El valor mínimo ingresado es: ", valorMínimo)
+
+
 
 	
