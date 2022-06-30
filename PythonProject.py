@@ -66,9 +66,10 @@ def maximo(lista):
 		if numero>grande:
 			grande=numero
 	return grande
+#Imprimo el valor máximo
 print ("El valor MÁXIMO ingresado es: ", maximo(lista), "\n")
 
-#Función Mínimo 
+#Función mínimo 
 def minimo(lista):
 	minimo=0
 	for numero in lista:
