@@ -30,10 +30,6 @@ for x in range(5):
 print("Los numeros ingresados son: \n ",lista)
 
 
-#Uso sum que tiene python para hacer la suma de los numeros de la lista
-Suma_lista=sum(lista)
-print(" El resultado de la Suma es:  ",Suma_lista, "\n")
-
 #Definimos Función suma propia 
 def suma(lista):
 	total_suma=0
