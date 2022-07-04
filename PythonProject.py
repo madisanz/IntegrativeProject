@@ -48,7 +48,7 @@ def minimo(lista):
             minimo=numero
     return minimo
 
-def main(lista):
+def main():
     #Llamo a la Función suma propia
     Suma_total=suma(lista)
     print(" El resultado de la Suma es:  ",Suma_total, "\n")
