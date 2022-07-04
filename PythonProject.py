@@ -16,31 +16,12 @@ Grupo:
    -> Emma Gutiérrez        E-mail: emygut@gmail.com
    
 '''
-
-
-#Definimos una lista vacia 
-lista=[]
-
-#El usuario ingresa los 5 numeros enteros
-for x in range(5):
-    valor=int(input("Ingrese un valor entero:  "))
-    lista.append(valor)
-
-#Imprimimos la lista
-print("Los numeros ingresados son: \n ",lista)
-
-
 #Definimos Función suma propia 
-def suma(lista):
-	total_suma=0
-	for numero in lista:
-		total_suma = total_suma + numero
-	return total_suma
-
-#Llamo a la Función suma propia
-Suma_total=suma(lista)
-print(" El resultado de la Suma es:  ",Suma_total, "\n")
-
+def suma (lista):
+    total_suma=0
+    for numero in lista:
+        total_suma=total_suma+numero
+    return total_suma
 
 #Función promedio
 def promedio(lista):
@@ -51,26 +32,42 @@ def promedio(lista):
         contador=promedio/len(lista)
     return contador
 
-
-a=promedio(lista)
-print ( "El promedio de la lista es: " , a , "\n")
-
 #Función máximo
 def maximo(lista):
-	grande=0
-	for numero in lista:
-		if numero>grande:
-			grande=numero
-	return grande
-#Imprimo el valor máximo
-print ("El valor MÁXIMO ingresado es: ", maximo(lista), "\n")
+    grande=lista[0]
+    for numero in lista:
+        if numero>grande:
+            grande=numero
+    return grande
 
 #Función mínimo 
 def minimo(lista):
-	minimo=0
-	for numero in lista:
-		if numero<minimo:
-			minimo=numero
-	 return minimo
-#Imprimo el valor mínimo
-print ("El valor MÍNIMO ingresado es: ", minimo(lista), "\n")
+    minimo=lista[0]
+    for numero in lista:
+        if numero<minimo:
+            minimo=numero
+    return minimo
+
+def main(lista):
+    #Llamo a la Función suma propia
+    Suma_total=suma(lista)
+    print(" El resultado de la Suma es:  ",Suma_total, "\n")
+    #Llamo a la Función promedio
+    a=promedio(lista)
+    print ( "El promedio de la lista es: " , a , "\n")
+    #Imprimo el valor máximo
+    print ("El valor MÁXIMO ingresado es: ", maximo(lista), "\n")
+    #Imprimo el valor mínimo
+    print ("El valor MÍNIMO ingresado es: ", minimo(lista), "\n")
+
+#Definimos una lista vacia 
+lista = []
+
+#El usuario ingresa los 5 numeros enteros
+for x in range(5):
+    valor = int (input("Ingrese un valor entero:  "))
+    lista.append(valor)
+
+#Imprimimos la lista
+print("Los numeros ingresados son: \n ",lista)
+main()
